@@ -1,16 +1,80 @@
-# React + Vite
+# Campus Connect AI 🏫
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive campus tour platform developed during the **Kaizen Collab Hackathon at King's College London**. The project addresses the challenge:
 
-Currently, two official plugins are available:
+> **"How might we design a campus tour experience that helps new students, visitors, and staff explore King's history, spaces, and teaching environments in a more engaging and accessible way?"**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Campus Connect AI** is a modern React.js web application designed to transform the traditional campus tour experience into an engaging, accessible, and interactive digital platform.
 
-## Expanding the ESLint configuration
+The application allows users to explore campus locations, discover key facilities, and understand the university’s academic and historical environment in a more intuitive and user-friendly way.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project demonstrates how modern web technologies can be used to improve accessibility, engagement, and navigation in higher education environments.
+
+---
+
+## ✨ Features
+
+- 🗺️ Interactive campus exploration experience  
+- 🏫 Discovery of university buildings and facilities  
+- 📚 Information about campus history and learning environments  
+- 📱 Fully responsive design for all devices    
+- ⚡ Fast and modern React.js interface  
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3
+- Vite
+- Responsive Web Design  
+- Git & GitHub  
+
+---
+
+## 🎯 Project Goals
+
+- Improve onboarding experience for new students  
+- Enhance campus navigation for visitors and staff  
+- Increase accessibility to campus information  
+- Replace traditional static campus tours with a digital experience  
+- Apply modern frontend development in a real-world problem context  
+
+---
+
+## 📈 Learning Outcomes
+
+Through this hackathon project, I gained hands-on experience in:
+
+- Building scalable React.js applications  
+- Designing user-centered experiences (UX/UI)  
+- Rapid prototyping under time constraints  
+- Solving real-world problems using technology  
+- Collaborative innovation and hackathon development  
+
+---
+
+## 🏆 Hackathon
+
+Developed during the **Kaizen Collab Hackathon at King's College London**, where students collaborated to solve real-world challenges using innovation, design thinking, and technology.
+
+---
+
+## 👤 Author
+
+**Mohammed Zuoriki**  
+Cybersecurity Student | Aspiring Cloud Security Engineer | Self-Driven Technologist
+
+LinkedIn: https://www.linkedin.com/in/mohammed-zuoriki-856133250/
+
+---
+
+## ⭐ Support
+
+If you like this project, feel free to star the repository and connect with me on LinkedIn!
