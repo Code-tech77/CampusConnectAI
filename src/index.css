@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+:root {
+  /* Logo Matched Palette */
+  --kcl-logo-red: #D71A21;
+  --kcl-dark-red: #9e1016;
+  
+  /* Elegant Backgrounds */
+  --bg-deep-navy: #090B10;
+  --bg-charcoal: #12151C;
+  --bg-card: rgba(18, 21, 28, 0.6);
+  
+  /* Text */
+  --text-main: #F4F5F7;
+  --text-muted: #A0A5B5;
+  --text-gold: #D4AF37; /* Subtle champagne gold accent */
+
+  /* Glass/Borders */
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-deep-navy);
+  color: var(--text-main);
+  overflow-x: hidden;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography Utilities */
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+.text-logo-red {
+  color: var(--kcl-logo-red);
+}
+
+/* Premium Glass Panel */
+.glass-panel-elegant {
+  background: var(--bg-card);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Elegant Button */
+.elegant-button {
+  background: var(--kcl-logo-red);
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 2px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.elegant-button::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: all 0.5s ease;
+}
+
+.elegant-button:hover {
+  background: var(--kcl-dark-red);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(215, 26, 33, 0.3);
+}
+
+.elegant-button:hover::before {
+  left: 100%;
+}
+
+.elegant-button-outline {
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  color: white;
+}
+.elegant-button-outline:hover {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.2);
+  box-shadow: none;
+}
+
+/* Pure CSS Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.animate-delay-1 { animation-delay: 0.2s; opacity: 0; }
+.animate-delay-2 { animation-delay: 0.4s; opacity: 0; }
+.animate-delay-3 { animation-delay: 0.6s; opacity: 0; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-deep-navy);
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2F3D;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--kcl-logo-red);
+}
